@@ -51,10 +51,10 @@ Error Responses:
 
 Sample Requests
 Browser:
-http://localhost:5000/images/img1.jpg
+http://localhost:5000/images/image1.jpg
 
 Postman:
-GET http://localhost:5000/images/img5.png
+GET http://localhost:5000/images/image5.png
 
 Missing Image:
 http://localhost:5000/images/unknown.jpg
