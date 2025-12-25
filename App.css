@@ -1,120 +1,41 @@
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 body {
-  background: #eef3ff;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  min-height: 100vh;
-  padding-top: 40px;
+  font-family: Arial, sans-serif;
+  background: #c6ddf5;
 }
 
 .container {
-  width: 380px;
-  background: #ffffff;
+  width: 400px;
+  margin: 60px auto;
   padding: 25px;
-  border-radius: 12px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
-  margin-bottom: 40px;
+  background: #f5f1dc;
+  box-shadow: 0px 0px 12px rgba(30, 90, 219, 0.15);
+  border-radius: 10px;
   text-align: center;
 }
-
-h2, h1 {
-  text-align: center;
-  color: #002a5c;
-  margin-bottom: 20px;
-}
-
 
 input {
-  width: 100%;
+  width: 90%;
   padding: 10px;
-  margin: 8px 0;
-  border: 1px solid #aac4ff;
+  margin: 10px 0;
   border-radius: 6px;
-  transition: 0.3s;
+  border: 1px solid #999;
 }
-
-input:focus {
-  border-color: #004aad;
-  outline: none;
-}
-
-
 button {
   width: 100%;
-  padding: 10px;
-  background: #004aad;
-  color: white;
+  padding: 12px;
+  background: #0a1a36;
+  color: #fff;
   border: none;
   font-size: 16px;
-  cursor: pointer;
   border-radius: 6px;
-  transition: 0.3s;
-  margin-top: 10px;
+  cursor: pointer;
 }
 
 button:hover {
-  background: #002f6c;
+  background: #123a6e;
 }
-
 
 .error {
-  background: #ffd1d1;
-  color: #d10000;
-  padding: 7px;
-  border-radius: 5px;
+  color: red;
   font-size: 14px;
-  text-align: center;
-  margin-bottom: 10px;
 }
-
-
-a {
-  color: #004aad;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.dashboard-box {
-  text-align: center;
-  line-height: 40px;
-  
-}
-
-.logout-btn {
-  background: #c70039;
-  margin-top: 15px;
-}
-
-.logout-btn:hover {
-  background: #8c0027;
-}
-
-button {
-  margin-bottom: 10px;
-}
-
-.profile-box {
-  text-align: left;
-  line-height: 28px;
-}
-
-.profile-details p {
-  background: #f4f7ff;
-  padding: 8px;
-  border-radius: 6px;
-  margin: 6px 0;
-  border-left: 3px solid #6898d7;
-  border-right: 3px solid #6898d7;
-}
-
