@@ -8,4 +8,5 @@ router.get('/', imageController.getAllImages);
 // GET /api/images/:imageName - Get a specific image
 router.get('/:imageName', imageController.getImage);
 
+
 module.exports = router;
