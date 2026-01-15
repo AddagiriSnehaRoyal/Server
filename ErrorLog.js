@@ -12,4 +12,5 @@ const errorLogSchema = new mongoose.Schema({
   }
 });
 
+
 module.exports = mongoose.model("ErrorLog", errorLogSchema);
